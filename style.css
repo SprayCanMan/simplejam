@@ -18,7 +18,10 @@ p {
     color: #777;
 }
 
+@media screen and (max-width: 640px)
+{ #disqus_thread { width: 640px; margin: 2rem auto; padding: 18px !important; }}
+
 #disqus_thread {
     margin: 2rem auto;
-    max-width: 600px;
+    max-width: 640px;
 }
